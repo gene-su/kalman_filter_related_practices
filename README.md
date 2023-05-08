@@ -65,3 +65,8 @@ R=
 0 & \sigma^2_{p_y}
 \end{bmatrix}
 $$
+
+## unscented_kalman_filter
+This is a project for the Sensor Fusion course on Udacity. Tracking cars using both lidar and radar measurements. The lidar measurements provide the car's pose in terms of x and y coordinates, while the radar measurements provide the car's range, bearing, and radial velocity.
+
+![image](images/unscented_kalman_filter.gif)
