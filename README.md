@@ -1,12 +1,19 @@
 # kalman_filter_related_practices
 ## kalman_filter
 state $x$:
+
 $$
 x=
-\begin{bmatrix} p_x \\ p_y \\ v_x \\ v_y \end{bmatrix}
+\begin{bmatrix} 
+p_x \\
+p_y \\
+v_x \\
+v_y 
+\end{bmatrix}
 $$
 
 state transition matrix $F$:
+
 $$
 F=
 \begin{bmatrix}
@@ -18,6 +25,7 @@ F=
 $$
 
 process noise covariance matrix $Q$:
+
 $$
 Q=
 \begin{bmatrix}
@@ -29,12 +37,17 @@ Q=
 $$
 
 measurement $y$:
+
 $$
 y=
-\begin{bmatrix} p_x \\ p_y \end{bmatrix}
+\begin{bmatrix}
+p_x \\ 
+p_y 
+\end{bmatrix}
 $$
 
 measurement matrix $H$:
+
 $$
 H=
 \begin{bmatrix}
@@ -44,6 +57,7 @@ H=
 $$
 
 measurement noise covariance matrix $R$:
+
 $$
 R=
 \begin{bmatrix}
